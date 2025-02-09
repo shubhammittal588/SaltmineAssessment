@@ -28,8 +28,8 @@ This is a simple shopping cart application built with Node.js that allows users 
 ### Installation
 
 1. **Clone the repository** (if applicable):<br/>
-   git clone <repository-url> <br/>
-   cd <repository-directory><br/>
+   git clone https://github.com/shubhammittal588/SaltmineAssessment.git <br/>
+   cd to repository-directory<br/>
    npm install express node-fetch<br/>
    node server.mjs<br/>
    node app.mjs  //Use a seperate terminal to run the app<br/>

@@ -1,4 +1,3 @@
-// server.mjs
 import express from 'express';
 import fs from 'fs/promises'; // Use promises version of fs for async/await
 const app = express();

@@ -27,23 +27,22 @@ This is a simple shopping cart application built with Node.js that allows users 
 
 ### Installation
 
-1. **Clone the repository** (if applicable):
-   git clone <repository-url>
-   cd <repository-directory>
-   npm install express node-fetch
-   node server.mjs
-   node app.mjs  //Use a seperate terminal to run the app
+1. **Clone the repository** (if applicable):<br/>
+   git clone <repository-url> <br/>
+   cd <repository-directory><br/>
+   npm install express node-fetch<br/>
+   node server.mjs<br/>
+   node app.mjs  //Use a seperate terminal to run the app<br/>
 
 ### Expected Output
 
-1. **node server.mjs** :
+1. **node server.mjs** :<br/>
    Price API is running at http://localhost:3001
 
-2. **node app.mjs** :
-   Cart contains:
-   2 x cornflakes @ 4.99 each
-   1 x weetabix @ 7.29 each
-   -----------------------------------
-   Subtotal = 17.27
-   Tax = 2.16
+2. **node app.mjs** : <br/>
+   Cart contains:<br/>
+   2 x cornflakes @ 4.99 each<br/>
+   1 x weetabix @ 7.29 each<br/>
+   Subtotal = 17.27<br/>
+   Tax = 2.16<br/>
    Total = 19.43

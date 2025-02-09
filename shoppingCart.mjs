@@ -1,10 +1,9 @@
-// shoppingCart.mjs
 import fetch from 'node-fetch';
 
 class ShoppingCart {
     constructor() {
         this.cart = {};
-        this.taxRate = 0.125; // 12.5%
+        this.taxRate = 0.125; // 12.5% as the tax rate taken, assuming nirmala tai going easy on us
     }
 
     async addProduct(productName, quantity) {
@@ -41,13 +40,13 @@ class ShoppingCart {
     }
 
     calculateTax(subtotal) {
-        return Math.ceil(subtotal * this.taxRate * 100) / 100; // Round up to 2 decimal places
+        return Math.ceil(subtotal * this.taxRate * 100) / 100; // Rounded up to 2 decimal places
     }
 
     calculateTotal() {
         const subtotal = this.calculateSubtotal();
         const tax = this.calculateTax(subtotal);
-        return Math.ceil((subtotal + tax) * 100) / 100; // Round up to 2 decimal places
+        return Math.ceil((subtotal + tax) * 100) / 100; // Rounded up to 2 decimal places
     }
 
     getCartDetails() {

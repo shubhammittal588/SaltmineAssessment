@@ -1,0 +1,17 @@
+{
+  "name": "saltmineassesment",
+  "version": "1.0.0",
+  "description": "This is a simple shopping cart implementation in JavaScript that allows users to add products, calculate totals, and retrieve product prices from a mock Price API.",
+  "main": "priceApi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "node": "^23.7.0",
+    "node-fetch": "^3.3.2"
+  }
+}

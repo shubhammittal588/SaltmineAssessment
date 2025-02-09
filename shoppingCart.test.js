@@ -1,4 +1,3 @@
-// shoppingCart.test.js
 const ShoppingCart = require('./shoppingCart.mjs');
 const PriceApi = require('./priceApi');
 

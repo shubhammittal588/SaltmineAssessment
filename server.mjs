@@ -1,5 +1,5 @@
 import express from 'express';
-import fs from 'fs/promises'; // Use promises version of fs for async/await
+import fs from 'fs/promises'; // i have used promises version of fs for async/await
 const app = express();
 const PORT = 3001;
 
